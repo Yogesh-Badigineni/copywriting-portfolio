@@ -1,8 +1,11 @@
-# Editorial Copywriting Portfolio
+# Badigineni Yogesh — Editorial Copywriting Portfolio
 
-A high-performance, mobile-responsive, editorial-style copywriting portfolio website built with semantic HTML5, modern Vanilla CSS, and lightweight JavaScript. Designed specifically to present copywriting craft to prospective clients, marketing directors, recruiters, and e-commerce founders.
+A high-performance, mobile-responsive, editorial-style copywriting portfolio website built with semantic HTML5, modern Vanilla CSS, and lightweight JavaScript. Designed specifically to present the copywriting craft of **Badigineni Yogesh** to prospective clients, marketing directors, recruiters, and e-commerce founders.
 
 **Live Website URL:** [https://yogesh-badigineni.github.io/copywriting-portfolio/](https://yogesh-badigineni.github.io/copywriting-portfolio/)  
+**Author:** Badigineni Yogesh  
+**Email:** [badigineniyogesh@gmail.com](mailto:badigineniyogesh@gmail.com)  
+**LinkedIn:** [https://www.linkedin.com/in/badigineni-yogesh](https://www.linkedin.com/in/badigineni-yogesh)  
 **Repository:** [https://github.com/Yogesh-Badigineni/copywriting-portfolio](https://github.com/Yogesh-Badigineni/copywriting-portfolio)
 
 ---
@@ -62,10 +65,10 @@ This website features **17 original, production-ready copywriting samples** acro
 
 | Technical Element | Implementation Details |
 | :--- | :--- |
-| **Title Tag** | `[Your Name] \| Copywriter Creating Clear, Engaging, Customer-Focused Content` |
+| **Title Tag** | `Badigineni Yogesh \| Copywriter Creating Clear, Engaging, Customer-Focused Content` |
 | **Meta Description** | Compelling, non-keyword-stuffed description optimized for SERP click-through rates. |
 | **Heading Structure** | Strict semantic hierarchy: exactly one `<h1>`, followed by logical `<h2>` and `<h3>` tags. |
-| **Structured Data** | Valid Schema.org `application/ld+json` with `WebSite`, `Person`, and `ItemList` (17 items). |
+| **Structured Data** | Valid Schema.org `application/ld+json` with `WebSite`, `Person` (Badigineni Yogesh), and `ItemList` (17 items). |
 | **Canonical Tag** | Points to verified production URL: `https://yogesh-badigineni.github.io/copywriting-portfolio/`. |
 | **Robots.txt** | Clean crawling permissions with direct sitemap index directive. |
 | **XML Sitemap** | `/sitemap.xml` listing core sections with priority scores and change frequencies. |
@@ -74,25 +77,13 @@ This website features **17 original, production-ready copywriting samples** acro
 
 ---
 
-## 4. Personalizing Your Placeholders
+## 4. Google Search Console: Step-by-Step Guide
 
-To replace placeholder text with your real identity, open `index.html` and search for the following tokens:
-
-1. **`[Your Name]`**: Replace across `<title>`, Open Graph tags, `<header>`, Hero `<h1>`, Schema JSON-LD, and `<footer>`.
-2. **`[Your City, Country]`**: Update in the `#about` section and Schema JSON-LD.
-3. **`[Your Background / Degree]`**: Personalize your unique background in the `#about` section.
-4. **`your.email@example.com`**: Update in the `mailto:` link and the `data-email` attribute on the copy button.
-5. **`[your-profile]` & `[@yourhandle]`**: Add your LinkedIn and Twitter/X handles in the `#contact` section.
-
----
-
-## 5. Google Search Console: Step-by-Step Guide
-
-Follow these steps to submit your newly deployed website to Google:
+Follow these steps to submit your deployed website to Google:
 
 ### Step 1: Open Google Search Console
 1. Visit [https://search.google.com/search-console](https://search.google.com/search-console).
-2. Sign in with your primary Google account.
+2. Sign in with your Google account (`badigineniyogesh@gmail.com`).
 
 ### Step 2: Add Your Property
 1. Click **Add Property** in the left sidebar dropdown.
@@ -128,47 +119,11 @@ Choose one of the following methods:
 3. Click **Test Live URL** to confirm Googlebot can fetch the page without errors.
 4. Click **Request Indexing**.
 
-### Step 6: Ongoing Monitoring & Troubleshooting
-- **Performance Report:** Check weekly for impressions, clicks, average position, and search queries bringing visitors to your portfolio.
-- **Page Indexing Report:** Verify that the homepage and sitemap URLs show status "Indexed".
-- **Troubleshooting "Discovered - currently not indexed":** For new websites with limited backlink profiles, Google may take anywhere from a few days to a few weeks to index the site. Sharing your URL on your active LinkedIn profile, Twitter/X bio, Substack, and GitHub profile helps Googlebot discover the URL faster through external links.
-
 ---
 
-## 6. Custom Domain Setup (Optional)
+## 5. Contact Information
 
-Using a custom domain (e.g., `www.yournamecopy.com`) makes your portfolio even more professional and builds long-term domain authority.
-
-### Steps to Connect a Custom Domain:
-1. Register a domain from Namecheap, Porkbun, Cloudflare, or Google Domains.
-2. In your DNS settings at your domain registrar, add:
-   - **4 A Records** pointing to GitHub Pages IP addresses:
-     ```
-     185.199.108.153
-     185.199.109.153
-     185.199.110.153
-     185.199.111.153
-     ```
-   - **1 CNAME Record** for `www` pointing to:
-     ```
-     yogesh-badigineni.github.io
-     ```
-3. In this repository, create a file named `CNAME` containing just your domain (e.g., `www.yournamecopy.com`).
-4. In GitHub repository **Settings** → **Pages** → **Custom domain**, enter your domain and check **Enforce HTTPS**.
-5. Update the canonical URL in `index.html`, `sitemap.xml`, and `robots.txt` to match your new domain.
-
----
-
-## 7. Running Locally
-
-To preview or edit locally at any time:
-
-```bash
-# Using Python:
-python -m http.server 8080
-
-# Or using Node:
-npx serve .
-```
-
-Open [http://localhost:8080](http://localhost:8080) in your web browser.
+- **Name:** Badigineni Yogesh
+- **Email:** [badigineniyogesh@gmail.com](mailto:badigineniyogesh@gmail.com)
+- **LinkedIn:** [https://www.linkedin.com/in/badigineni-yogesh](https://www.linkedin.com/in/badigineni-yogesh)
+- **Live Portfolio:** [https://yogesh-badigineni.github.io/copywriting-portfolio/](https://yogesh-badigineni.github.io/copywriting-portfolio/)

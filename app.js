@@ -179,7 +179,7 @@ function initCopyButtons() {
   const copyEmailBtn = document.getElementById('copy-email-btn');
   if (copyEmailBtn) {
     copyEmailBtn.addEventListener('click', () => {
-      const email = copyEmailBtn.dataset.email || 'your.email@example.com';
+      const email = copyEmailBtn.dataset.email || 'badigineniyogesh@gmail.com';
       navigator.clipboard.writeText(email).then(() => {
         showToast(`Email (${email}) copied to clipboard!`);
       });
