@@ -1,0 +1,6 @@
+# Robots.txt for Copywriting Portfolio
+User-agent: *
+Allow: /
+
+# XML Sitemap Location
+Sitemap: https://yogesh-badigineni.github.io/copywriting-portfolio/sitemap.xml

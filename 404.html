@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found (404) | [Your Name] Copywriting Portfolio</title>
+  <meta name="robots" content="noindex, follow">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .not-found-hero {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 4rem 1.5rem;
+    }
+    .not-found-card {
+      max-width: 620px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-lg);
+      padding: clamp(2rem, 5vw, 4rem);
+      box-shadow: var(--shadow-md);
+    }
+    .not-found-code {
+      font-family: var(--font-serif);
+      font-size: clamp(4rem, 10vw, 7rem);
+      font-weight: 600;
+      color: var(--accent-primary);
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand">
+        <svg class="brand-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="19" stroke="var(--border-strong)" stroke-width="1.5" fill="var(--bg-surface)"/>
+          <path d="M26 14C24.5 12 22 10.5 19 10.5C13.5 10.5 10 14.5 10 20C10 25.5 13.5 29.5 19 29.5C22.5 29.5 25 28 26.5 26" stroke="var(--accent-primary)" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="27" cy="13.5" r="1.8" fill="var(--accent-primary)"/>
+        </svg>
+        <span class="brand-title">[Your Name]</span>
+      </a>
+      <a href="index.html" class="btn btn-secondary btn-sm">Return Home</a>
+    </div>
+  </header>
+
+  <main class="not-found-hero">
+    <div class="not-found-card">
+      <div class="not-found-code">404</div>
+      <h1 style="font-family: var(--font-serif); font-size: 2rem; margin-bottom: 1rem;">This Page Seems to Have Been Edited Out.</h1>
+      <p style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 2rem;">
+        Even the best copy undergoes aggressive cuts. The URL you followed doesn’t exist or has moved. Return to the main portfolio to browse all 17 writing samples.
+      </p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="index.html" class="btn btn-primary">Return to Portfolio</a>
+        <a href="index.html#contact" class="btn btn-secondary">Get in Touch</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container" style="text-align: center;">
+      <p>&copy; 2026 [Your Name] Copywriting Portfolio.</p>
+    </div>
+  </footer>
+</body>
+</html>
